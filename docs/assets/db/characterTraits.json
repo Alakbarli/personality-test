@@ -1,0 +1,132 @@
+{
+     "00000": {
+          "character": "Analytical Skeptic",
+          "description": "You approach life with a critical eye, seeking evidence and rationality in your quest for understanding."
+        },
+        "00001": {
+          "character": "Logical Analyzer",
+          "description": "You're a logical analyzer, dissecting problems with precision and attention to detail."
+        },
+        "00010": {
+          "character": "Practical Diplomat",
+          "description": "Your practicality and diplomatic skills make you a problem solver in interpersonal relationships."
+        },
+        "00011": {
+          "character": "Cautious Thinker",
+          "description": "You're cautious in your approach, carefully weighing options before making decisions."
+        },
+        "00100": {
+          "character": "Creative Explorer",
+          "description": "Your creativity and curiosity drive you to explore new ideas and experiences."
+        },
+        "00101": {
+          "character": "Adventurous Inventor",
+          "description": "You're an adventurous inventor, constantly seeking new solutions and experiences."
+        },
+        "00110": {
+          "character": "Methodical Planner",
+          "description": "Your methodical planning skills help you organize tasks and achieve your goals efficiently."
+        },
+        "00111": {
+          "character": "Resourceful Visionary",
+          "description": "You're a resourceful visionary, combining creativity with practicality to bring your ideas to life."
+        },
+        "01000": {
+          "character": "Empathetic Harmonizer",
+          "description": "Your empathy and harmonizing abilities make you skilled at resolving conflicts and building connections."
+        },
+        "01001": {
+          "character": "Compassionate Peacemaker",
+          "description": "You're a compassionate peacemaker, striving to create harmony in all aspects of life."
+        },
+        "01010": {
+          "character": "Eager Explorer",
+          "description": "Your eagerness to explore new experiences and ideas drives you forward in life."
+        },
+        "01011": {
+          "character": "Adventure Seeker",
+          "description": "You're an adventure seeker, constantly pushing boundaries and seeking thrill in life."
+        },
+        "01100": {
+          "character": "Organized Strategist",
+          "description": "Your organizational and strategic skills help you tackle complex challenges with ease."
+        },
+        "01101": {
+          "character": "Efficient Executor",
+          "description": "You're an efficient executor, turning plans into action with precision and speed."
+        },
+        "01110": {
+          "character": "Innovative Trailblazer",
+          "description": "You're an innovative trailblazer, constantly pushing the boundaries of what's possible."
+        },
+        "01111": {
+          "character": "Visionary Pioneer",
+          "description": "You're a visionary pioneer, leading the way with groundbreaking ideas and projects."
+        },
+        "10000": {
+          "character": "Steadfast Realist",
+          "description": "Your steadfast realism helps you navigate life with a practical and down-to-earth approach."
+        },
+        "10001": {
+          "character": "Pragmatic Grounded",
+          "description": "You're a pragmatic grounded individual, making practical decisions based on reality."
+        },
+        "10010": {
+          "character": "Open-Minded Explorer",
+          "description": "Your open-mindedness and curiosity lead you to explore diverse perspectives and ideas."
+        },
+        "10011": {
+          "character": "Curious Innovator",
+          "description": "You're a curious innovator, driven by a desire to discover and create new things."
+        },
+        "10100": {
+          "character": "Warmhearted Diplomat",
+          "description": "Your warmheartedness and diplomacy make you adept at building connections and resolving conflicts."
+        },
+        "10101": {
+          "character": "Empathetic Bridge-Builder",
+          "description": "You're an empathetic bridge-builder, bringing people together and fostering understanding."
+        },
+        "10110": {
+          "character": "Adventurous Optimist",
+          "description": "Your adventurous optimism leads you to embrace new opportunities and challenges."
+        },
+        "10111": {
+          "character": "Optimistic Explorer",
+          "description": "You're an optimistic explorer, always looking for the silver lining and new horizons."
+        },
+        "11000": {
+          "character": "Strategic Analyst",
+          "description": "Your strategic analysis skills enable you to dissect complex problems and devise effective solutions."
+        },
+        "11001": {
+          "character": "Tactical Problem-Solver",
+          "description": "You're a tactical problem-solver, using practical approaches to tackle challenges."
+        },
+        "11010": {
+          "character": "Innovative Visionary",
+          "description": "Your innovative vision drives you to create and explore new possibilities."
+        },
+        "11011": {
+          "character": "Visionary Creator",
+          "description": "You're a visionary creator, constantly imagining and bringing innovative ideas to life."
+        },
+        "11100": {
+          "character": "Calm Diplomat",
+          "description": "Your calm and diplomatic nature helps you navigate conflicts and build bridges."
+        },
+        "11101": {
+          "character": "Harmonious Peacemaker",
+          "description": "You're a harmonious peacemaker, always seeking to create balance and resolve disputes."
+        },
+        "11110": {
+          "character": "Curious Adventurer",
+          "description": "Your curiosity drives you to explore new experiences and embrace life's adventures."
+        },
+        "11111": {
+          "character": "Fearless Explorer",
+          "description": "You're a fearless explorer, always ready to conquer challenges and explore the unknown."
+        }
+      
+      
+}
