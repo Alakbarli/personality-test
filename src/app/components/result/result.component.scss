@@ -12,11 +12,27 @@
     h3{
         filter: brightness(.7);
         font-size: 35px;
+        @media screen and (max-width:990px){
+            font-size: 25px;
+            line-height: 1em;
+        }
+        @media screen and (max-width:400px){
+            font-size:20px;
+            line-height: 1em;
+        }
     }
     p{
         font-size: 25px;
         font-family: $secondary-font;
         line-height: 1.1em;
+        @media screen and (max-width:990px){
+            font-size: 20px;
+            line-height: 1.1em;
+        }
+        @media screen and (max-width:400px){
+            font-size:15px;
+            line-height: 1.1em;
+        }
     }
     a{
         margin-top: 20PX;
