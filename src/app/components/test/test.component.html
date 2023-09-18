@@ -1,0 +1,42 @@
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-4">
+                <div class="test-container">
+                    <div class="title">
+                        <h3>{{test.name}}</h3>
+                        <p>Test question count: {{test.questions.length}}</p>
+                    </div>
+                    <div class="progress">
+                        <div [ngStyle]="{'width': progress+'%'}" [appProgressWith]="progress" class="line"></div>
+                    </div>
+                    <div class="question">
+                        <h4>
+                           {{questionIndex+1}}. {{question.question}}
+                        </h4>
+                    </div>
+                    <div class="answers">
+                        <ul>
+                            <li *ngFor="let variant of question.variants; index as i" (click)="createAnswer(question.id,variant.id)">
+                                <div class="answer" [ngClass]="{'answer-selected':checkVariant(question.id,variant.id)}">
+                                    <span class="list-style">
+                                        {{letter(i)}}
+                                    </span>
+                                    <span class="answer-text">
+                                        {{variant.text}}
+                                    </span>
+                                    <mat-icon *ngIf="checkVariant(question.id,variant.id)">done</mat-icon>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="operations">
+                        <button (click)="prev()" *ngIf="hasPrevQuestion&&allQuestionDone">Pervious question</button>
+                        <button (click)="next()" *ngIf="hasNextQuestion&&allQuestionDone">Next question</button>
+                        <a *ngIf="allQuestionDone" (click)="submit()">Submit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

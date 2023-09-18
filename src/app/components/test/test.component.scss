@@ -1,0 +1,129 @@
+@use 'sass:color';
+@import "../../../assets/styles/variables.scss";
+.test-container{
+    min-height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: $main-color;
+        .title{
+            h3{
+                filter: brightness(.7);
+                font-size: 30px;
+                text-transform: uppercase;
+            }
+            p{
+
+            }
+        }
+        .progress{
+            margin-bottom: 30px;
+            background-color: rgba($main-color, .2);
+            display: inline-block;
+            height: 15px;
+            width: 100%;
+
+            .line{
+                background-color: black;
+                display: inline-block;
+                width: 20%;
+                height: 15px;
+                background-color: $main-color;
+                transition: 0.3s all ease;
+            }
+        }
+    .question{
+            h4{
+                filter: brightness(.7);
+                font-size: 25px;
+            }
+    }
+    .answers{
+        ul{
+            padding: 0;
+            margin-left: 30px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            li{
+                user-select: none;
+                margin-bottom: 7px;
+                .answer{
+                    position: relative;
+                    padding: 5px 40px 5px 15px;
+                    border-radius: 5px;
+                    word-break: break-word;
+                    cursor: pointer;
+                    transition: 0.3s all ease;
+                    min-height: 40px;
+                    color: $main-color;
+                    background-color:  rgba($main-color, .2);
+                    box-shadow: rgba($main-color, 0.6) 0px 0px 0px 1px inset;
+                    display: flex;
+                    align-items: center;
+                    .list-style{
+                        margin-right: 10px;
+                        min-width: 25px;
+                        height: 25px;
+                        width: 25px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 5px;
+                        border:1px solid rgba($main-color, 1);
+                        background-color:  $main-color-light;
+                    }
+                    .answer-text{
+                        color: rgba($main-color, 1);
+                        font-size: 18px;
+                    }
+                    mat-icon{
+                        position: absolute;
+                        right: 10px;
+                        
+                    }
+                    &:hover{
+                        background-color:  rgba($main-color, .4);
+                    }
+                }
+                .answer-selected{
+                    box-shadow: rgba($main-color, 0.6) 0px 0px 0px 2px inset;
+                    background-color:  rgba($main-color, .2);
+                    .list-style{
+                        color:  $main-color-light;
+                        background-color:  $main-color;
+                    }
+                }
+
+            }
+        }
+    }
+    .operations{
+        button,a{
+            cursor: pointer;
+            margin: 10px;
+            background-color: color.scale($main-color, $lightness: -30%);
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            padding: .5em 1.5em;
+            border-radius: 20px;
+            border: 2px solid color.scale($main-color, $lightness: -30%);
+            transition: 0.3s all ease;
+            &:hover{
+                color: $main-color;
+                background-color: color.scale($third-color, $lightness: 80%);
+
+            }
+        }
+        a{
+            display: block;
+            width: fit-content;
+            background-color: $secondary-color;
+            color: $main-color;
+            border-color: $secondary-color;;
+        }
+    }
+}

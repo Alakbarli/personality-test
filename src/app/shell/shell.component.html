@@ -1,0 +1,51 @@
+<mat-drawer-container (window:resize)="onResize($event)" class="example-container" autosize [hasBackdrop]="true">
+    <mat-drawer #drawer class="example-sidenav" mode="over">
+      <div class="mobile-nav">
+        <div class="navbar">
+            <ul>
+                <li><a [routerLink]="['/result-list']">My test results</a> </li>
+               
+            </ul>
+        </div>
+      </div>
+    </mat-drawer>
+  
+    <div class="example-sidenav-content">
+      <div class="desktop-header">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="nav-h">
+                            <div class="logo">
+                                <a [routerLink]="['/main']"><img src="assets/images/logo.png" alt=""></a>
+                                
+                            </div>
+                            <div class="navbar d-none d-lg-block">
+                                <ul>
+                                    <li><a [routerLink]="['/result-list']">My test results</a> </li>
+                                </ul>
+                            </div>
+                            <div class="test">
+                                <a [routerLink]="['/test']">Take test</a>
+                                <button *ngIf="isMobile" (click)="toggle()">
+                                    <mat-icon>menu</mat-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         </div>
+         </header>
+      </div>
+      <router-outlet></router-outlet>
+      <footer style="display: none;">
+        <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="https://alakbarli.github.io">Ulvi Alakbarli</a>
+            </div>
+        </div>
+      </div></footer>
+    </div>
+</mat-drawer-container>

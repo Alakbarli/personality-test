@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="result">
+                <h3>{{result.character}}</h3>
+                <p>{{result.description}}
+                </p>
+                <div>
+                    <a [routerLink]="['/test']">Repeat test</a>
+                </div>
+                <div class="detailed mt-4">
+                    <mat-accordion>
+                        <mat-expansion-panel class="mb-2" *ngFor="let x of list">
+                          <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                <span class="tr-head">{{x.name}}</span>
+                                
+                            </mat-panel-title>
+                            <mat-panel-description>
+                              {{x.point}}
+                            </mat-panel-description>
+                          </mat-expansion-panel-header>
+                          <p class="tr-text">{{x.description}}</p>
+                        </mat-expansion-panel>
+                      </mat-accordion>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+

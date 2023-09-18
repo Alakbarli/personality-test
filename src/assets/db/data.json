@@ -1,0 +1,864 @@
+{
+    "id": 1,
+    "name":"Personality test",
+    "traits": [
+      {
+        "id": 1,
+        "testId":1,
+        "name": "Extraversion vs. Introversion"
+      },
+      {
+        "id": 2,
+        "testId":1,
+        "name": "Conscientiousness"
+      },
+      {
+        "id": 3,
+        "testId":1,
+        "name": "Openness to Experience"
+      },
+      {
+        "id": 4,
+        "testId":1,
+        "name": "Agreeableness"
+      },
+      {
+        "id": 5,
+        "testId":1,
+        "name": "Emotional Stability (Neuroticism)"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "testId":1,
+        "question": "How do you typically approach social events?",
+        "variants": [
+          {
+            "id": 1,
+            "questionId":1,
+            "text": "I love socializing and thrive in social events.",
+            "traitVariantConnection": [
+              {
+                "id": 1,
+                "variantId": 1,
+                "traitId": 5,
+                "point": 3
+              },
+              {
+                "id": 2,
+                "variantId": 1,
+                "traitId": 1,
+                "point": 2
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "questionId":1,
+            "text": "I enjoy social events but also value my alone time.",
+            "traitVariantConnection": [
+              {
+                "id": 3,
+                "variantId": 2,
+                "traitId": 5,
+                "point": 2
+              },
+              {
+                "id": 4,
+                "variantId": 2,
+                "traitId": 1,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "questionId":1,
+            "text": "I prefer smaller gatherings and intimate social settings.",
+            "traitVariantConnection": [
+              {
+                "id": 5,
+                "variantId": 3,
+                "traitId": 5,
+                "point": 1
+              },
+              {
+                "id": 6,
+                "variantId": 3,
+                "traitId": 1,
+                "point": -2
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "questionId":1,
+            "text": "I'm introverted and feel uncomfortable in social events.",
+            "traitVariantConnection": [
+              {
+                "id": 7,
+                "variantId": 4,
+                "traitId": 5,
+                "point": -1
+              },
+              {
+                "id": 8,
+                "variantId": 4,
+                "traitId": 1,
+                "point": -3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "testId":1,
+        "question": "How do you handle conflicts?",
+        "variants": [
+          {
+            "id": 5,
+            "questionId":2,
+            "text": "I'm very confrontational and address conflicts head-on.",
+            "traitVariantConnection": [
+              {
+                "id": 9,
+                "variantId": 5,
+                "traitId": 4,
+                "point": 2
+              },
+              {
+                "id": 10,
+                "variantId": 5,
+                "traitId": 1,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "questionId":2,
+            "text": "I'm assertive but try to find a compromise in conflicts.",
+            "traitVariantConnection": [
+              {
+                "id": 11,
+                "variantId": 6,
+                "traitId": 4,
+                "point": 1
+              },
+              {
+                "id": 12,
+                "variantId": 6,
+                "traitId": 1,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "questionId":2,
+            "text": "I avoid conflicts and prefer to keep the peace.",
+            "traitVariantConnection": [
+              {
+                "id": 13,
+                "variantId": 7,
+                "traitId": 4,
+                "point": -2
+              },
+              {
+                "id": 14,
+                "variantId": 7,
+                "traitId": 1,
+                "point": -1
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "questionId":2,
+            "text": "I dislike conflicts and will do anything to avoid them.",
+            "traitVariantConnection": [
+              {
+                "id": 15,
+                "variantId": 8,
+                "traitId": 4,
+                "point": -3
+              },
+              {
+                "id": 16,
+                "variantId": 8,
+                "traitId": 1,
+                "point": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "testId":1,
+        "question": "How do you approach teamwork?",
+        "variants": [
+          {
+            "id": 9,
+            "questionId":3,
+            "text": "I enjoy working in teams and collaborating with others.",
+            "traitVariantConnection": [
+              {
+                "id": 17,
+                "variantId": 9,
+                "traitId": 4,
+                "point": 2
+              },
+              {
+                "id": 18,
+                "variantId": 9,
+                "traitId": 1,
+                "point": 3
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "questionId":3,
+            "text": "I appreciate teamwork but can also work independently.",
+            "traitVariantConnection": [
+              {
+                "id": 19,
+                "variantId": 10,
+                "traitId": 4,
+                "point": 1
+              },
+              {
+                "id": 20,
+                "variantId": 10,
+                "traitId": 1,
+                "point": 2
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "questionId":3,
+            "text": "I prefer working alone but can collaborate when necessary.",
+            "traitVariantConnection": [
+              {
+                "id": 21,
+                "variantId": 11,
+                "traitId": 4,
+                "point": -1
+              },
+              {
+                "id": 22,
+                "variantId": 11,
+                "traitId": 1,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "questionId":3,
+            "text": "I avoid teamwork and prefer to work alone.",
+            "traitVariantConnection": [
+              {
+                "id": 23,
+                "variantId": 12,
+                "traitId": 4,
+                "point": -2
+              },
+              {
+                "id": 24,
+                "variantId": 12,
+                "traitId": 1,
+                "point": -3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "testId":1,
+        "question": "How do you adapt to change?",
+        "variants": [
+          {
+            "id": 13,
+            "questionId":4,
+            "text": "I embrace change and adapt quickly.",
+            "traitVariantConnection": [
+              {
+                "id": 25,
+                "variantId": 13,
+                "traitId": 3,
+                "point": 3
+              },
+              {
+                "id": 26,
+                "variantId": 13,
+                "traitId": 2,
+                "point": 2
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "questionId":4,
+            "text": "I'm open to change and can adjust with some effort.",
+            "traitVariantConnection": [
+              {
+                "id": 27,
+                "variantId": 14,
+                "traitId": 3,
+                "point": 2
+              },
+              {
+                "id": 28,
+                "variantId": 14,
+                "traitId": 2,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "questionId":4,
+            "text": "I prefer stability and find change challenging.",
+            "traitVariantConnection": [
+              {
+                "id": 29,
+                "variantId": 15,
+                "traitId": 3,
+                "point": 1
+              },
+              {
+                "id": 30,
+                "variantId": 15,
+                "traitId": 2,
+                "point": -1
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "questionId":4,
+            "text": "I resist change and prefer things to stay as they are.",
+            "traitVariantConnection": [
+              {
+                "id": 31,
+                "variantId": 16,
+                "traitId": 3,
+                "point": -2
+              },
+              {
+                "id": 32,
+                "variantId": 16,
+                "traitId": 2,
+                "point": -3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "testId":1,
+        "question": "How do you handle stress?",
+        "variants": [
+          {
+            "id": 17,
+            "questionId":5,
+            "text": "I stay calm under pressure and manage stress effectively.",
+            "traitVariantConnection": [
+              {
+                "id": 33,
+                "variantId": 17,
+                "traitId": 5,
+                "point": 3
+              },
+              {
+                "id": 34,
+                "variantId": 17,
+                "traitId": 1,
+                "point": 2
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "questionId":5,
+            "text": "I handle stress well but may become overwhelmed occasionally.",
+            "traitVariantConnection": [
+              {
+                "id": 35,
+                "variantId": 18,
+                "traitId": 5,
+                "point": 2
+              },
+              {
+                "id": 36,
+                "variantId": 18,
+                "traitId": 1,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "questionId":5,
+            "text": "I cope with stress but often need assistance or time alone.",
+            "traitVariantConnection": [
+              {
+                "id": 37,
+                "variantId": 19,
+                "traitId": 5,
+                "point": 1
+              },
+              {
+                "id": 38,
+                "variantId": 19,
+                "traitId": 1,
+                "point": -1
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "questionId":5,
+            "text": "I struggle with stress and have difficulty managing it.",
+            "traitVariantConnection": [
+              {
+                "id": 39,
+                "variantId": 20,
+                "traitId": 5,
+                "point": -1
+              },
+              {
+                "id": 40,
+                "variantId": 20,
+                "traitId": 1,
+                "point": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "testId":1,
+        "question": "How do you approach new challenges?",
+        "variants": [
+          {
+            "id": 21,
+            "questionId":6,
+            "text": "I eagerly embrace new challenges and seek them out.",
+            "traitVariantConnection": [
+              {
+                "id": 41,
+                "variantId": 21,
+                "traitId": 3,
+                "point": 3
+              },
+              {
+                "id": 42,
+                "variantId": 21,
+                "traitId": 2,
+                "point": 2
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "questionId":6,
+            "text": "I'm open to new challenges and will take them on when they arise.",
+            "traitVariantConnection": [
+              {
+                "id": 43,
+                "variantId": 22,
+                "traitId": 3,
+                "point": 2
+              },
+              {
+                "id": 44,
+                "variantId": 22,
+                "traitId": 2,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "questionId":6,
+            "text": "I prefer sticking to what I know and avoid new challenges.",
+            "traitVariantConnection": [
+              {
+                "id": 45,
+                "variantId": 23,
+                "traitId": 3,
+                "point": 1
+              },
+              {
+                "id": 46,
+                "variantId": 23,
+                "traitId": 2,
+                "point": -1
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "questionId":6,
+            "text": "I'm cautious and resist taking on new challenges.",
+            "traitVariantConnection": [
+              {
+                "id": 47,
+                "variantId": 24,
+                "traitId": 3,
+                "point": -2
+              },
+              {
+                "id": 48,
+                "variantId": 24,
+                "traitId": 2,
+                "point": -3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "testId":1,
+        "question": "How do you make decisions?",
+        "variants": [
+          {
+            "id": 25,
+            "questionId":7,
+            "text": "I'm very decisive and make decisions quickly.",
+            "traitVariantConnection": [
+              {
+                "id": 49,
+                "variantId": 25,
+                "traitId": 3,
+                "point": 3
+              },
+              {
+                "id": 50,
+                "variantId": 25,
+                "traitId": 4,
+                "point": 2
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "questionId":7,
+            "text": "I'm usually decisive but may need some time for major decisions.",
+            "traitVariantConnection": [
+              {
+                "id": 51,
+                "variantId": 26,
+                "traitId": 3,
+                "point": 2
+              },
+              {
+                "id": 52,
+                "variantId": 26,
+                "traitId": 4,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "questionId":7,
+            "text": "I take my time and carefully weigh all options before deciding.",
+            "traitVariantConnection": [
+              {
+                "id": 53,
+                "variantId": 27,
+                "traitId": 3,
+                "point": 1
+              },
+              {
+                "id": 54,
+                "variantId": 27,
+                "traitId": 4,
+                "point": -1
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "questionId":7,
+            "text": "I struggle with decision-making and often seek advice.",
+            "traitVariantConnection": [
+              {
+                "id": 55,
+                "variantId": 28,
+                "traitId": 3,
+                "point": -2
+              },
+              {
+                "id": 56,
+                "variantId": 28,
+                "traitId": 4,
+                "point": -3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "testId":1,
+        "question": "How do you approach risk?",
+        "variants": [
+          {
+            "id": 29,
+            "questionId":8,
+            "text": "I'm a risk-taker and enjoy taking bold chances.",
+            "traitVariantConnection": [
+              {
+                "id": 57,
+                "variantId": 29,
+                "traitId": 3,
+                "point": 3
+              },
+              {
+                "id": 58,
+                "variantId": 29,
+                "traitId": 2,
+                "point": 2
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "questionId":8,
+            "text": "I'm open to some risks but prefer a balanced approach.",
+            "traitVariantConnection": [
+              {
+                "id": 59,
+                "variantId": 30,
+                "traitId": 3,
+                "point": 2
+              },
+              {
+                "id": 60,
+                "variantId": 30,
+                "traitId": 2,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "questionId":8,
+            "text": "I'm cautious and avoid most risks.",
+            "traitVariantConnection": [
+              {
+                "id": 61,
+                "variantId": 31,
+                "traitId": 3,
+                "point": 1
+              },
+              {
+                "id": 62,
+                "variantId": 31,
+                "traitId": 2,
+                "point": -1
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "questionId":8,
+            "text": "I'm risk-averse and avoid taking any chances.",
+            "traitVariantConnection": [
+              {
+                "id": 63,
+                "variantId": 32,
+                "traitId": 3,
+                "point": -2
+              },
+              {
+                "id": 64,
+                "variantId": 32,
+                "traitId": 2,
+                "point": -3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "testId":1,
+        "question": "How do you approach helping others?",
+        "variants": [
+          {
+            "id": 33,
+            "questionId":9,
+            "text": "I'm always ready to help and prioritize others' needs.",
+            "traitVariantConnection": [
+              {
+                "id": 65,
+                "variantId": 33,
+                "traitId": 4,
+                "point": 3
+              },
+              {
+                "id": 66,
+                "variantId": 33,
+                "traitId": 1,
+                "point": 2
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "questionId":9,
+            "text": "I'm willing to help but balance it with my own needs.",
+            "traitVariantConnection": [
+              {
+                "id": 67,
+                "variantId": 34,
+                "traitId": 4,
+                "point": 2
+              },
+              {
+                "id": 68,
+                "variantId": 34,
+                "traitId": 1,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "questionId":9,
+            "text": "I help when asked but don't go out of my way.",
+            "traitVariantConnection": [
+              {
+                "id": 69,
+                "variantId": 35,
+                "traitId": 4,
+                "point": 1
+              },
+              {
+                "id": 70,
+                "variantId": 35,
+                "traitId": 1,
+                "point": -1
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "questionId":9,
+            "text": "I prefer not to get involved in others' problems.",
+            "traitVariantConnection": [
+              {
+                "id": 71,
+                "variantId": 36,
+                "traitId": 4,
+                "point": -2
+              },
+              {
+                "id": 72,
+                "variantId": 36,
+                "traitId": 1,
+                "point": -3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "testId":1,
+        "question": "How do you handle setbacks?",
+        "variants": [
+          {
+            "id": 37,
+            "questionId":10,
+            "text": "I'm resilient and bounce back quickly from setbacks.",
+            "traitVariantConnection": [
+              {
+                "id": 73,
+                "variantId": 37,
+                "traitId": 5,
+                "point": 3
+              },
+              {
+                "id": 74,
+                "variantId": 37,
+                "traitId": 2,
+                "point": 2
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "questionId":10,
+            "text": "I recover from setbacks with time and effort.",
+            "traitVariantConnection": [
+              {
+                "id": 75,
+                "variantId": 38,
+                "traitId": 5,
+                "point": 2
+              },
+              {
+                "id": 76,
+                "variantId": 38,
+                "traitId": 2,
+                "point": 1
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "questionId":10,
+            "text": "Setbacks often affect me deeply and take a while to overcome.",
+            "traitVariantConnection": [
+              {
+                "id": 77,
+                "variantId": 39,
+                "traitId": 5,
+                "point": 1
+              },
+              {
+                "id": 78,
+                "variantId": 39,
+                "traitId": 2,
+                "point": -1
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "questionId":10,
+            "text": "I struggle to cope with setbacks and may become stuck.",
+            "traitVariantConnection": [
+              {
+                "id": 79,
+                "variantId": 40,
+                "traitId": 5,
+                "point": -2
+              },
+              {
+                "id": 80,
+                "variantId": 40,
+                "traitId": 2,
+                "point": -3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

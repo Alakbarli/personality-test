@@ -1,0 +1,47 @@
+@use 'sass:color';
+@import "../../../assets/styles/variables.scss";
+.result{
+    margin: auto;
+    max-width: 80%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $main-color;
+    text-align: center;
+    h3{
+        filter: brightness(.7);
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+        font-family: $secondary-font;
+        line-height: 1.1em;
+    }
+    a{
+        margin-top: 20PX;
+        background-color: color.scale($main-color, $lightness: -30%);
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        padding: .5em 2em;
+        border-radius: 20px;
+        border: 2px solid color.scale($main-color, $lightness: -30%);
+        transition: 0.3s all ease;
+        &:hover{
+            color: $main-color;
+            background-color:  rgba($main-color, .1);
+
+        }
+    }
+    .tr-head{
+        filter: brightness(.1);
+        font-size: 20px;
+    }
+    .tr-text{
+        font-size: 18px;
+        font-family: $secondary-font;
+        line-height: 1.4em;
+    }
+}
